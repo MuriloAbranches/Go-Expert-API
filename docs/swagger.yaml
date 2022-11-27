@@ -1,0 +1,21 @@
+basePath: /
+host: localhost:8000
+info:
+  contact:
+    email: https://github.com/MuriloAbranches
+    name: Murilo Abranches
+    url: https://github.com/MuriloAbranches
+  description: Product API with authentication
+  license:
+    name: MIT
+    url: https://github.com/MuriloAbranches
+  termsOfService: http://swagger.io/terms/
+  title: Go Expert API Example
+  version: "1.0"
+paths: {}
+securityDefinitions:
+  ApiKeyAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
