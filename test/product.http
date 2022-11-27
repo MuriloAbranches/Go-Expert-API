@@ -1,0 +1,25 @@
+POST http://localhost:8000/products HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "My Product",
+    "price": 100
+}
+
+###
+GET http://localhost:8000/products HTTP/1.1
+
+###
+GET http://localhost:8000/products/0be84bc2-df9c-4c88-a9ae-aafc009bebd6 HTTP/1.1
+
+###
+PUT http://localhost:8000/products/0be84bc2-df9c-4c88-a9ae-aafc009bebd6 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "My Product Updated",
+    "price": 150
+}
+
+###
+DELETE http://localhost:8000/products/0be84bc2-df9c-4c88-a9ae-aafc009bebd6 HTTP/1.1
